@@ -1,6 +1,7 @@
 body{
   background-color:#EAF6F6;
   margin: 0px;
+  font-family: serif;
 }
 hr{
    border-style: none;
@@ -17,6 +18,20 @@ h3{
     color: #66BFBF;
 }
 
-div{
+.top-container{
   background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 50px;
 }
