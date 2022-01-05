@@ -1,7 +1,8 @@
 body{
   background-color:#EAF6F6;
-  margin: 0px;
+  margin: auto;
   font-family: serif;
+  text-align: center;
 }
 hr{
    border-style: none;
@@ -18,13 +19,6 @@ h3{
     color: #66BFBF;
 }
 
-.top-container{
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
-  text-align: center;
-}
-
 .top-cloud{
   position: absolute;
   right:300px;
@@ -35,3 +29,63 @@ h3{
   left:300px;
   bottom: 50px;
 }
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.Middle-Container{
+  background-color: #E4F9F5;
+  position: relative;
+  text-align: center;
+}
+
+.WorkExp{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  text-align: center;
+}
+
+.skills{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  text-align: center;
+}
+
+.Education{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  text-align: center;
+}
+
+.workExp-img{
+  float: left;
+}
+
+.Skill-img{
+  float: left;
+}
+
+.Education-img{
+  float:left;
+}
+
+.objective{
+  text-align: left;
+}
+.table1{
+  text-align: left;
+  margin-left: 200px;
+}
+
+.table2{
+  text-align: left;
+  margin-left: 200px;
+}
+
+.contact-me{
+  text-align: center;
+}
+
